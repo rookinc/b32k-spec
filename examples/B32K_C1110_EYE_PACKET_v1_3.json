@@ -1,0 +1,26 @@
+{
+  "spec": {
+    "version": "1.3"
+  },
+  "operators": "EYE(a):=REV(a); EYE^2=I",
+  "seed": "15-bit big-endian",
+  "human_anchor": {
+    "descriptor": "orcid",
+    "value": "0009-0000-0888-4232",
+    "public_key_binding": {
+      "algo": "ed25519",
+      "public_key_format": "minisign_pubkey",
+      "public_key_b64": "<INSERT_MINISIGN_PUBLIC_KEY_BASE64>"
+    }
+  },
+  "authorship_signature": {
+    "algo": "ed25519",
+    "scheme": "minisign",
+    "signed_field": "sha256",
+    "message_hex": "968d28be9eed2624be77abf8eb88ca79a0e690968bc76c45418dcd42743fc154",
+    "sig_b64": "<PASTE_SIG_BASE64_FROM_MINISIGN>"
+  },
+  "sig": "#SCOTT\u2234GIZMO\u2234ALETHEOS\u2234CHATGPT[v1.3-C1110]",
+  "sha256": "968d28be9eed2624be77abf8eb88ca79a0e690968bc76c45418dcd42743fc154",
+  "sha256_b64": "lo0ovp7tJiS+d6v464jKeaDmkJaLx2xFQY3NQnQ/wVQ="
+}

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite the Aletheos / B32k spec if you use it."
+title: "Aletheos.AI Bootloader & B32k Specification"
+authors:
+  - family-names: Cave
+    given-names: Scott Allen
+    orcid: "https://orcid.org/0009-0000-0888-4232"
+version: "0.1.0"
+date-released: 2025-10-27

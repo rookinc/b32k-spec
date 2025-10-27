@@ -1,0 +1,19 @@
+name: Validate Spec Examples
+
+on:
+  pull_request:
+    paths:
+      - 'examples/*.json'
+      - 'schema/*.json'
+      - 'tools/validate_packet.py'
+  push:
+    branches: [ main ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate example packet
+        run: |
+          python3 tools/validate_packet.py examples/B32K_C1110_EYE_PACKET_v1_3.json
