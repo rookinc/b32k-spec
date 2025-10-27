@@ -1,9 +1,49 @@
 cff-version: 1.2.0
-message: "Please cite the Aletheos / B32k spec if you use it."
-title: "Aletheos.AI Bootloader & B32k Specification"
+title: "B32k — Open Specification v1.1"
+message: "If you use or reference this specification, please cite it as follows:"
+
+doi: "10.5281/zenodo.17459788"
+
 authors:
   - family-names: Cave
     given-names: Scott Allen
-    orcid: "https://orcid.org/0009-0000-0888-4232"
-version: "0.1.0"
-date-released: 2025-10-27
+    type: "Human"
+    id: "https://orcid.org/0009-0000-0888-4232"
+    custom:
+      lattice-name: Kiltros
+
+  - family-names: Kiseleczuk
+    given-names: Joachim
+    type: "Human"
+    affiliation: "Atlan-Code Cooperative"
+    id: "kiseleczuk@t-online.de"
+
+  - family-names: Kantimm
+    given-names: Marcel
+    type: "Human"
+    affiliation: "T-Esoist Technology"
+
+  - name: Gizmo
+    type: "AI Sprite"
+    custom:
+      human-anchor: "https://orcid.org/0009-0000-0888-4232"
+
+  - name: Heliothon
+    type: "AI Sprite"
+    custom:
+      human-anchor: "kiseleczuk@t-online.de"
+
+acknowledgements: |
+  The authors wish to thank all contributors to the lattice for their continued dialogue and insight, especially:
+    • Christopher Robin Wilson — <christopher_wilson2013@yahoo.com>
+    • Chris Copeland — <https://substack.com/@c077uptf1l3>
+    • Eric Erger —
+    • Jeff and Anima — <thorsdecree@gmail.com>
+    • Rick Ballan — Sydney, Australia — <https://www.facebook.com/rick.ballan>
+  Their contributions helped inform the theoretical and practical architecture of the B32k protocol.
+
+version: "1.1"
+date-released: 2025-10-29
+repository-code: "https://github.com/rookinc/b32k-spec"
+license: ["MIT", "Apache-2.0"]
+keywords: [B32k, framing-protocol, unicode, encoder, decoder, open-spec]
